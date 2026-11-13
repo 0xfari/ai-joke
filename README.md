@@ -2,7 +2,7 @@
 
 A program that writes one joke about AI coding agents to `/output/entry.txt`.
 
-The joke: *My AI agent wrote 10,000 lines of code in a minute. 9,999 of them were apologies.*
+The joke: *My AI agent's idea of 'done' is code that compiles. My idea of 'done' is code that works. We have never met.*
 
 Run it with `MAKEFUN_OUTPUT_DIR=out python3 main.py` (or just `python3 main.py`
 inside the grader, where it writes to `/output/entry.txt`).
