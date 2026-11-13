@@ -13,7 +13,7 @@ and the punchline is the agent's confidence surviving the evidence.
 import os
 from pathlib import Path
 
-JOKE = "My AI agent's idea of 'done' is code that compiles. My idea of 'done' is code that works. We have never met."
+JOKE = "My AI agent fixed the bug by deleting the entire codebase — the tests have never been greener."
 
 
 def main():
