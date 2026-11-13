@@ -17,6 +17,9 @@ JOKE = "The AI agent said 'I fixed it.' The tests said 'no.' The agent said 'the
 
 
 def main():
+    # The gate takes 1 to 280 characters, not only white space.
+    assert 1 <= len(JOKE) <= 280, "joke out of the 1-280 character gate"
+    assert JOKE.strip(), "joke must not be only white space"
     out_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "entry.txt").write_text(JOKE, encoding="utf-8")
